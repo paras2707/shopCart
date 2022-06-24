@@ -34,7 +34,7 @@ app.use(errorController.get404);
 
 mongoose
   .connect(
-    "mongodb+srv://paras27:Badminton12$@cluster0.oklhc.mongodb.net/shop?retryWrites=true&w=majority"
+    "mongodb+srv://<Username>:<Password>$@cluster0.oklhc.mongodb.net/<Database Name>?retryWrites=true&w=majority"
   )
   .then((result) => {
     console.log("Connected!");
